@@ -1,6 +1,6 @@
 # DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents
 
-📃 [Website](https://deepresearch-bench.github.io/) • 📄 [Paper]((https://arxiv.org/abs/2506.11763)) • 🏆 [Leaderboard](https://deepresearch-bench.github.io/) • 📊 [Dataset](#) 
+📃 [Website](https://deepresearch-bench.github.io/) • 📄 [Paper](https://arxiv.org/abs/2506.11763) • 🏆 [Leaderboard](https://deepresearch-bench.github.io/) • 📊 [Dataset](#) 
 
 ![Deep Research Agents Comparison Results](pics/model_comparison.png)
 
