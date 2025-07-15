@@ -2,7 +2,21 @@
 
 📃 [Website](https://deepresearch-bench.github.io/) • 📄 [Paper](https://arxiv.org/abs/2506.11763) • 🏆 [Leaderboard](https://huggingface.co/spaces/Ayanami0730/DeepResearch-Leaderboard) • 📊 [Dataset](#) 
 
-![Deep Research Agents Comparison Results](pics/model_comparison.png)
+![Deep Research Agents Comparison Results](pics/leaderboard_0715.png)
+
+## 🆕 Latest Updates!!
+
+This version includes comprehensive evaluation of new Deep Research Agents:
+- **Kimi-Researcher**: Moonshot AI's deep research agent
+- **Doubao-DeepResearch**: ByteDance's deep research solution  
+- **Claude-Researcher**: Anthropic's research-focused agent
+
+We have also upgraded our evaluation infrastructure:
+- **RACE Evaluation**: Now powered by **Gemini-2.5-Pro** for more accurate quality assessment
+- **FACT Evaluation**: Now powered by **Gemini-2.5-Flash** for efficient citation verification
+- **Updated Leaderboard**: Reflecting the latest performance comparisons across all agents
+
+**Note**: All raw research articles and corresponding evaluation scores are available at our [**Hugging Face Leaderboard**](https://huggingface.co/spaces/Ayanami0730/DeepResearch-Leaderboard). The platform supports both individual model analysis and side-by-side comparisons for comprehensive evaluation.
 
 
 ## 📖 Overview
@@ -13,6 +27,7 @@ DeepResearch Bench addresses the absence of a comprehensive benchmark for system
 * 💼 **Finance & Business**: investments, personal finance, marketing, and human resources
 * 💻 **Software**: Topics related to the use of software and the internet
 * 🌍 **Others**: Art & Design, Entertainment, History, Industrial, Transportation, Travel, and more
+
 
 ## Benchmark Construction
 
