@@ -18,6 +18,10 @@ We have also upgraded our evaluation infrastructure:
 
 **Note**: All raw research articles and corresponding evaluation scores are available at our [**Hugging Face Leaderboard**](https://huggingface.co/spaces/Ayanami0730/DeepResearch-Leaderboard). The platform supports both individual model analysis and side-by-side comparisons for comprehensive evaluation.
 
+For detailed evaluation results and comprehensive comparisons, please refer to the evaluation results table below.
+
+
+
 
 ## 📖 Overview
 
@@ -86,30 +90,37 @@ Our comprehensive evaluation reveals significant performance variations across d
 
 | **Model** | **RACE Overall** | **RACE Comp.** | **RACE Depth** | **RACE Inst.** | **RACE Read.** | **FACT C. Acc.** | **FACT E. Cit.** |
 |-----------|------------------|----------------|----------------|----------------|----------------|------------------|------------------|
-| ***LLM with Search Tools*** |
-| **Claude-3.7-Sonnet w/Search** | **40.67** | **38.99** | **37.66** | **45.77** | 41.46 | 93.68 | 32.48 |
-| Claude-3.5-Sonnet w/Search | 28.48 | 24.82 | 22.82 | 35.12 | 35.08 | **94.04** | 9.78 |
-| Perplexity-Sonar-Reasoning-Pro(high) | 40.22 | 37.38 | 36.11 | 45.66 | **44.74** | 39.36 | 8.35 |
-| Perplexity-Sonar-Reasoning(high) | 40.18 | 37.14 | 36.73 | 45.15 | 44.35 | 48.67 | 11.34 |
-| Perplexity-Sonar-Pro(high) | 38.93 | 36.38 | 34.26 | 44.70 | 43.35 | 78.66 | 14.74 |
-| Perplexity-Sonar(high) | 34.54 | 30.95 | 27.51 | 42.33 | 41.60 | 74.42 | 8.67 |
-| Gemini-2.5-Pro-Grounding | 35.12 | 34.06 | 29.79 | 41.67 | 37.16 | 81.81 | 32.88 |
-| Gemini-2.5-Flash-Grounding | 32.39 | 31.63 | 26.73 | 38.82 | 34.48 | 81.92 | 31.08 |
-| GPT-4o-Search-Preview (high) | 35.10 | 31.99 | 27.57 | 43.17 | 41.23 | 88.41 | 4.79 |
-| GPT-4o-Mini-Search-Preview(high) | 31.55 | 27.38 | 22.64 | 40.67 | 39.91 | 84.98 | 4.95 |
-| GPT-4.1 w/Search(high) | 33.46 | 29.42 | 25.38 | 42.33 | 40.77 | 87.83 | 4.42 |
-| GPT-4.1-mini w/Search(high) | 30.26 | 26.05 | 20.75 | 39.65 | 39.33 | 84.58 | 4.35 |
 | ***Deep Research Agent*** |
-| Grok Deeper Search | 40.24 | 37.97 | 35.37 | 46.30 | 44.05 | 83.59 | 8.15 |
-| Perplexity Deep Research | 42.25 | 40.69 | 39.39 | 46.40 | 44.28 | **90.24** | 31.26 |
-| **Gemini-2.5-Pro Deep Research** | **48.88** | **48.53** | **48.50** | 49.18 | **49.44** | 81.44 | **111.21** |
-| OpenAI Deep Research | 46.98 | 46.87 | 45.25 | **49.27** | 47.14 | 77.96 | 40.79 |
+| Gemini-2.5-Pro Deep Research | **48.92** | **48.45** | **48.30** | <u>49.29</u> | **49.77** | <u>78.30</u> | **165.34** |
+| OpenAI Deep Research | <u>46.45</u> | <u>46.46</u> | <u>43.73</u> | **49.39** | <u>47.22</u> | 75.01 | 39.79 |
+| Claude-Researcher | 45.00 | 45.34 | 42.79 | 47.58 | 44.66 | - | - |
+| Kimi-Researcher | 44.64 | 44.96 | 41.97 | 47.14 | 45.59 | - | - |
+| Doubao-DeepResearch | 44.34 | 44.84 | 40.56 | 47.95 | 44.69 | 52.86 | <u>52.62</u> |
+| Perplexity-Research | 40.46 | 39.10 | 35.65 | 46.11 | 43.08 | **82.63** | 31.20 |
+| Grok Deeper Search | 38.22 | 36.08 | 30.89 | 46.59 | 42.17 | 73.08 | 8.58 |
+| ***LLM with Search Tools*** |
+| Perplexity-Sonar-Reasoning-Pro | **37.76** | <u>34.96</u> | <u>31.65</u> | **44.93** | **42.42** | 45.19 | 9.39 |
+| Perplexity-Sonar-Reasoning | <u>37.75</u> | 34.73 | **32.59** | <u>44.42</u> | <u>42.39</u> | 52.58 | 13.37 |
+| Claude-3.7-Sonnet w/Search | 36.63 | **35.95** | 31.29 | 44.05 | 36.07 | 87.32 | **24.51** |
+| Perplexity-Sonar-Pro | 36.19 | 33.92 | 29.69 | 43.39 | 41.07 | 79.72 | <u>16.75</u> |
+| Gemini-2.5-Pro-Preview | 31.90 | 31.75 | 24.61 | 40.24 | 32.76 | - | - |
+| GPT-4o-Search-Preview | 30.74 | 27.81 | 20.44 | 41.01 | 37.60 | 86.63 | 5.05 |
+| Perplexity-Sonar | 30.64 | 27.14 | 21.62 | 40.70 | 37.46 | 76.41 | 10.68 |
+| GPT-4.1 w/Search | 29.31 | 25.59 | 18.42 | 40.63 | 36.49 | <u>89.85</u> | 4.27 |
+| Gemini-2.5-Flash-Preview | 29.19 | 28.97 | 21.62 | 37.80 | 29.97 | - | - |
+| GPT-4o-Mini-Search-Preview | 27.62 | 24.24 | 16.62 | 38.59 | 35.27 | 81.69 | 4.62 |
+| GPT-4.1-Mini w/Search | 26.62 | 22.86 | 15.39 | 38.18 | 34.49 | 84.54 | 4.10 |
+| Claude-3.5-Sonnet w/Search | 23.95 | 21.28 | 16.20 | 32.41 | 29.87 | **94.06** | 9.35 |
 
 **Key Findings:**
-- **Gemini-2.5-Pro Deep Research** achieves the highest overall performance (48.88) with exceptional depth and comprehensiveness
-- **Deep Research Agents** significantly outperform traditional LLMs with search tools
-- **Citation accuracy** varies substantially across models, with Claude-3.5-Sonnet achieving 94.04% accuracy
-- **Effective citation count** shows Gemini-2.5-Pro leading with 111.21 citations per task
+- **Gemini-2.5-Pro Deep Research** achieves the highest overall performance (48.92) with exceptional depth and comprehensiveness, leading in all RACE metrics
+- **OpenAI Deep Research** and **Claude-Researcher** follow closely, securing second and third place respectively, demonstrating strong research capabilities
+- **Kimi-Researcher** and **Doubao-DeepResearch** also show competitive performance.
+- **Deep Research Agents** significantly outperform traditional LLMs with search tools across all evaluation dimensions.
+- **Citation accuracy** varies substantially across models, with Perplexity-Research achieving the highest accuracy among Deep Research Agents
+- **Effective citation count** shows Gemini-2.5-Pro leading with around 165 citations per task, demonstrating superior information gathering capabilities
+
+**Note on FACT Evaluation**: Due to differences between Jina AI's web scraping capabilities and internal scraping systems used by various companies, some links may fail to be scraped or return different content through Jina AI. Therefore, FACT evaluation results should be interpreted with caution and are provided for reference purposes only.
 
 ---
 
