@@ -1,22 +1,18 @@
-# DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents
+<h1 align="center">DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents</h1>
 
-📃 [Website](https://deepresearch-bench.github.io/) • 📄 [Paper](https://arxiv.org/abs/2506.11763) • 🏆 [Leaderboard](https://huggingface.co/spaces/Ayanami0730/DeepResearch-Leaderboard) • 📊 [Dataset](#) 
+<div align="center">
+<a href="https://github.com/Ayanami0730/deep_research_bench/blob/main/LICENSE"><img src="https://img.shields.io/badge/Code_License-MIT-blue" alt="license"></a>
+<a href="https://deepresearch-bench.github.io/"><img src="https://img.shields.io/badge/Website-DeepResearch-green" alt="website"></a>
+<a href="https://huggingface.co/spaces/Ayanami0730/DeepResearch-Leaderboard"><img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?color=8A2BE2"></a>
+<a href="https://arxiv.org/abs/2506.11763" target="_blank"><img src=https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv></a>
+</div>
+
+<h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
 
 ![Deep Research Agents Comparison Results](pics/leaderboard_0715.png)
 
-## 🆕 Latest Updates!!
-
-This version includes comprehensive evaluation of new Deep Research Agents:
-- **Kimi-Researcher**: Moonshot AI's deep research agent
-- **Doubao-DeepResearch**: ByteDance's deep research solution  
-- **Claude-Researcher**: Anthropic's research-focused agent
-
-We have also upgraded our evaluation infrastructure:
-- **RACE Evaluation**: Now powered by **Gemini-2.5-Pro** for more accurate quality assessment
-- **FACT Evaluation**: Now powered by **Gemini-2.5-Flash** for efficient citation verification
-- **Updated Leaderboard**: Reflecting the latest performance comparisons across all agents
-
-**Note**: All raw research articles and corresponding evaluation scores are available at our [**Hugging Face Leaderboard**](https://huggingface.co/spaces/Ayanami0730/DeepResearch-Leaderboard). The platform supports both individual model analysis and side-by-side comparisons for comprehensive evaluation.
+# ✨ News
++ [15 July 2025] ⚡️⚡️ **Major Update**: Added comprehensive evaluation of **Kimi-Researcher**, **Doubao-DeepResearch**, and **Claude-Researcher**. Upgraded evaluation infrastructure with **Gemini-2.5-Pro** for RACE and **Gemini-2.5-Flash** for FACT evaluation. All raw research articles and evaluation scores are now available on our [**Hugging Face Leaderboard**](https://huggingface.co/spaces/Ayanami0730/DeepResearch-Leaderboard) for comprehensive analysis and comparison.
 
 For detailed evaluation results and comprehensive comparisons, please refer to the evaluation results table below.
 
