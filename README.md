@@ -213,6 +213,14 @@ Results will be saved to:
 
 If you're not using the official Gemini API or want to use other LLMs for evaluation, modify the `AIClient` class in `utils/api.py` to implement your custom LLM interface.
 
+## Acknowledgements
+
+We would like to express our gratitude to the following contributors who helped us collect evaluation data. Since many models and agents do not provide public APIs, manual data collection was necessary, and we deeply appreciate their dedicated efforts:
+
+**Xin Yang**, **Jie Yang**, **Yawen Li**, **Xinyu Ouyang**, **Jiaqi He**, **Gefan Zhang**, **Jinfu Liao**, **Qiuyue Chen**, **Yulin Wang**, and **Lina Wang**.
+
+Their contributions were essential to the comprehensive evaluation presented in this benchmark.
+
 ## Citation
 
 If you use DeepResearch Bench in your research, please cite our paper:
