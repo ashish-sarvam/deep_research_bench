@@ -214,3 +214,6 @@ htmlcov/
 
 # Performance profiling
 *.prof 
+
+.specstory/
+service-account.json

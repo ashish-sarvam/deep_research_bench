@@ -1,0 +1,14 @@
+1. run locally
+2. running for 10 queries
+3. grounding by vedant
+4. lang Fuse
+5. geppa paper --> at task graph level
+6. contract of nodes
+7. state management
+8. tools for websearch and scrapping
+
+9. prompt level optimisation for the stack 
+
+GPT-OSS --> Kimi --> GLM
+100 reports
+AWS credits

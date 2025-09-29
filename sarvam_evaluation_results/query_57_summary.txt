@@ -1,0 +1,10 @@
+Evaluation Results for Query 57
+==================================================
+
+Query: Summarize the global investments, key initiatives, and outputs related to Artificial Intelligence (A...
+
+Comprehensiveness: 0.4337
+Insight: 0.4655
+Instruction Following: 0.5000
+Readability: 0.4365
+Overall Score: 0.4592
